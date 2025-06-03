@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1969 Ford Mustang | American Muscle Legend</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-icon">
+                <svg viewBox="0 0 100 100">
+                    <path d="M50,10 L90,50 L50,90 L10,50 Z" fill="none" stroke="#c9a959" stroke-width="2" />
+                    <path class="car-path" d="M25,50 L75,50" stroke="#c9a959" stroke-width="2" />
+                </svg>
+            </div>
+            <h2>1969 MUSTANG</h2>
+        </div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <h1>MUSTANG '69</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#history" class="nav-link">History</a></li>
+                <li><a href="#specs" class="nav-link">Specs</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#model3d" class="nav-link">3D View</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">1969 FORD MUSTANG</h1>
+            <h2 class="hero-subtitle">AMERICAN MUSCLE. TIMELESS LEGEND.</h2>
+            <div class="hero-cta">
+                <a href="#history" class="btn btn-primary">DISCOVER THE LEGEND</a>
+            </div>
+            <div class="engine-sound">
+                <button class="sound-btn" id="engineSound">
+                    <i class="fas fa-power-off"></i>
+                    <span>START ENGINE</span>
+                    <audio id="engineAudio" src="sounds/Mustang_engine.mp3" preload="auto"></audio>
+                </button>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+
+    <section id="history" class="history">
+        <div class="container">
+            <div class="section-header">
+                <h2>THE LEGACY</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="history-content">
+                <div class="history-image">
+                    <img src="images/232c108a-614d-4ab5-869c-0c655895bdb3.jpeg" alt="1969 Ford Mustang Side View">
+                    <div class="image-caption">THE BOSS 429 - STREET LEGAL NASCAR POWER</div>
+                </div>
+                <div class="history-text">
+                    <p class="intro-text">In 1969, Ford revolutionized the muscle car landscape with what many consider the pinnacle of Mustang design and performance.</p>
+                    
+                    <p>The 1969 Ford Mustang emerged during America's golden age of automotive muscle, when power was king and style was everything. This was no ordinary vehicle - it was a statement, a testament to American engineering prowess and design excellence.</p>
+                    
+                    <p>With its aggressive stance, powerful engine options including the legendary Boss 429, and unmistakable styling, the '69 Mustang became an instant classic. The car was not just transportation; it was a symbol of freedom, power, and rebellion.</p>
+                    
+                    <p>Film directors recognized its cinematic presence, featuring the '69 Mustang in countless movies where it often symbolized untamed power and outlaw spirit - the perfect automotive companion for those who lived by their own rules.</p>
+                    
+                    <div class="quote">
+                        <blockquote>"The 1969 Mustang wasn't just built... it was crafted for those who understood that true power comes with a certain responsibility - the responsibility to leave everyone else in the dust."</blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="specs" class="specs">
+        <div class="container">
+            <div class="section-header">
+                <h2>SPECIFICATIONS</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="specs-content">
+                <div class="specs-intro">
+                    <p>The 1969 Ford Mustang offered a range of powerful engines and performance options that cemented its place in automotive history. From the base six-cylinder to the monstrous Boss 429, each variant delivered its own brand of American muscle.</p>
+                </div>
+                
+                <div class="specs-cards">
+                    <div class="spec-card">
+                        <div class="card-header">
+                            <h3>ENGINE OPTIONS</h3>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li><span>Base:</span> 200 cu in (3.3 L) Thriftpower I6</li>
+                                <li><span>Small Block:</span> 302 cu in (4.9 L) Windsor V8</li>
+                                <li><span>Mid-Range:</span> 351 cu in (5.8 L) Windsor V8</li>
+                                <li><span>Performance:</span> 390 cu in (6.4 L) FE V8</li>
+                                <li><span>Boss 302:</span> 302 cu in (4.9 L) Boss V8</li>
+                                <li><span>Boss 429:</span> 429 cu in (7.0 L) Semi-Hemi V8</li>
+                                <li><span>Shelby GT500:</span> 428 cu in (7.0 L) Cobra Jet V8</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="spec-card">
+                        <div class="card-header">
+                            <h3>PERFORMANCE</h3>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li><span>Boss 429 Horsepower:</span> 375 hp (official) / 500+ hp (actual)</li>
+                                <li><span>Boss 429 Torque:</span> 450 lb-ft @ 3,400 rpm</li>
+                                <li><span>0-60 mph:</span> 5.3 seconds (Boss 429)</li>
+                                <li><span>1/4 Mile:</span> 13.6 seconds @ 104 mph</li>
+                                <li><span>Top Speed:</span> 135 mph (limited by gearing)</li>
+                                <li><span>Transmission:</span> 4-speed manual or 3-speed automatic</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="spec-card">
+                        <div class="card-header">
+                            <h3>DIMENSIONS</h3>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li><span>Length:</span> 187.4 inches</li>
+                                <li><span>Width:</span> 71.7 inches</li>
+                                <li><span>Height:</span> 50.5 inches</li>
+                                <li><span>Wheelbase:</span> 108 inches</li>
+                                <li><span>Curb Weight:</span> 3,150 - 3,800 lbs (depending on options)</li>
+                                <li><span>Fuel Capacity:</span> 16 gallons</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="model3d" class="model3d">
+        <div class="container">
+            <div class="section-header">
+                <h2>3D EXPERIENCE</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="model-intro">
+                <p>Experience the classic 1965 Ford Mustang Convertible in stunning 3D. Rotate, zoom, and explore every angle of this iconic vehicle.</p>
+            </div>
+            <div class="model-container">
+                <div id="model-viewer"></div>
+                <div id="loading-indicator" class="loading-indicator">
+                    <div class="spinner"></div>
+                    <div class="loading-text">Loading 3D Model...</div>
+                </div>
+                <div class="model-controls">
+                    <button id="rotate-left" class="control-btn" title="Rotate Left"><i class="fas fa-undo"></i></button>
+                    <button id="reset-view" class="control-btn" title="Reset View"><i class="fas fa-sync"></i></button>
+                    <button id="rotate-right" class="control-btn" title="Rotate Right"><i class="fas fa-redo"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>GALLERY</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="gallery-intro">
+                <p>Behold the raw power and timeless design of the 1969 Ford Mustang in all its glory. Every angle reveals a different facet of this automotive masterpiece.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-image="images/20b3bebe-08b3-408c-b046-3a05fdaf815b.jpeg">
+                    <img src="images/20b3bebe-08b3-408c-b046-3a05fdaf815b.jpeg" alt="1969 Ford Mustang Front View">
+                    <div class="gallery-caption">COMMANDING PRESENCE</div>
+                </div>
+                <div class="gallery-item" data-image="images/232c108a-614d-4ab5-869c-0c655895bdb3.jpeg">
+                    <img src="images/232c108a-614d-4ab5-869c-0c655895bdb3.jpeg" alt="1969 Ford Mustang Side Profile">
+                    <div class="gallery-caption">SCULPTED PERFECTION</div>
+                </div>
+                <div class="gallery-item" data-image="images/bcd8e6ca-c5b1-41ab-828e-11758462b509.jpeg">
+                    <img src="images/bcd8e6ca-c5b1-41ab-828e-11758462b509.jpeg" alt="1969 Ford Mustang Rear View">
+                    <div class="gallery-caption">ICONIC DESIGN</div>
+                </div>
+                <div class="gallery-item" data-image="images/Classic Mustang Wallpaper Iphone.jpeg">
+                    <img src="images/Classic Mustang Wallpaper Iphone.jpeg" alt="Classic 1969 Ford Mustang">
+                    <div class="gallery-caption">TIMELESS CLASSIC</div>
+                </div>
+                <div class="gallery-item" data-image="images/download (1).jpeg">
+                    <img src="images/download (1).jpeg" alt="1969 Ford Mustang Detail">
+                    <div class="gallery-caption">ELEGANT DETAILS</div>
+                </div>
+                <div class="gallery-item" data-image="images/e39fcbbc-1725-4b16-ab4e-92c2b0c775d6.jpeg">
+                    <img src="images/e39fcbbc-1725-4b16-ab4e-92c2b0c775d6.jpeg" alt="1969 Ford Mustang Profile">
+                    <div class="gallery-caption">MUSCULAR STANCE</div>
+                </div>
+                <div class="gallery-item" data-image="images/Ford Mustang Boss 429 Fastback Muscle Car - Free 4k Wallpapers - 40_000+ Free 4k Wallpapers - Pixel4k.jpeg">
+                    <img src="images/Ford Mustang Boss 429 Fastback Muscle Car - Free 4k Wallpapers - 40_000+ Free 4k Wallpapers - Pixel4k.jpeg" alt="Ford Mustang Boss 429 Fastback">
+                    <div class="gallery-caption">BOSS 429 FASTBACK</div>
+                </div>
+                <div class="gallery-item" data-image="images/WallPaper.jpeg">
+                    <img src="images/WallPaper.jpeg" alt="1969 Ford Mustang Wallpaper">
+                    <div class="gallery-caption">AMERICAN ICON</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="lightbox">
+            <span class="close-lightbox">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+            <div class="lightbox-controls">
+                <span class="prev-btn">&lt;</span>
+                <span class="next-btn">&gt;</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>SIGNATURE FEATURES</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="features-intro">
+                <p>The 1969 Ford Mustang introduced several innovations and design elements that have become legendary in the automotive world. These features defined an era and continue to influence car design today.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>INSTRUMENT CLUSTER</h3>
+                    <p>Driver-focused dashboard with deep-set gauges and aircraft-inspired toggle switches put all controls within easy reach.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>FASTBACK DESIGN</h3>
+                    <p>The iconic sloping roofline created one of the most recognizable silhouettes in automotive history.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>SHAKER HOOD</h3>
+                    <p>Available on performance models, this functional air intake protruded through the hood and literally "shook" with the engine's power.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-gas-pump"></i>
+                    </div>
+                    <h3>DUAL EXHAUSTS</h3>
+                    <p>Chrome-tipped dual exhaust pipes delivered the unmistakable rumble that announced the Mustang's arrival.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>TRIPLE TAIL LIGHTS</h3>
+                    <p>Sequential turn signals and the three-section tail lights became a Mustang signature feature.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-horse"></i>
+                    </div>
+                    <h3>MUSTANG EMBLEM</h3>
+                    <p>The galloping pony emblem represented unbridled power and became one of the most recognizable automotive logos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>MUSTANG '69</h2>
+                    <p>AMERICAN MUSCLE LEGEND</p>
+                </div>
+                <div class="footer-links">
+                    <h3>EXPLORE</h3>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#history">History</a></li>
+                        <li><a href="#specs">Specifications</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#model3d">3D View</a></li>
+                        <li><a href="#features">Features</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>CONNECT</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ford Mustang 1969 Tribute. This is a fan site not affiliated with Ford Motor Company.</p>
+                <p>Designed with <i class="fas fa-heart"></i> for classic American muscle.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="model-viewer.js"></script>
+</body>
+</html>
+
