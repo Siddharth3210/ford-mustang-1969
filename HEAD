@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 dd17f681778f15db5748e0f8678df8cce865aa91 Your Name <your.email@example.com> 1748954788 +0530	commit (initial): Initial commit - Ford Mustang 1969 Website
+dd17f681778f15db5748e0f8678df8cce865aa91 0000000000000000000000000000000000000000 Your Name <your.email@example.com> 1748954815 +0530	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 dd17f681778f15db5748e0f8678df8cce865aa91 Your Name <your.email@example.com> 1748954815 +0530	Branch: renamed refs/heads/master to refs/heads/main
+dd17f681778f15db5748e0f8678df8cce865aa91 b2b9302f48e92b3cfbd8a5c50f2d2e50c192372f Your Name <your.email@example.com> 1748955129 +0530	commit: first commit
+b2b9302f48e92b3cfbd8a5c50f2d2e50c192372f 0000000000000000000000000000000000000000 Your Name <your.email@example.com> 1748955129 +0530	Branch: renamed refs/heads/main to refs/heads/main
+b2b9302f48e92b3cfbd8a5c50f2d2e50c192372f b2b9302f48e92b3cfbd8a5c50f2d2e50c192372f Your Name <your.email@example.com> 1748955129 +0530	Branch: renamed refs/heads/main to refs/heads/main
